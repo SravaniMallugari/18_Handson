@@ -1,0 +1,8 @@
+C:\dotnet\incremental\incremental\bin\Debug\incremental.exe.config
+C:\dotnet\incremental\incremental\bin\Debug\incremental.exe
+C:\dotnet\incremental\incremental\bin\Debug\incremental.pdb
+C:\dotnet\incremental\incremental\obj\Debug\incremental.csproj.AssemblyReference.cache
+C:\dotnet\incremental\incremental\obj\Debug\incremental.csproj.SuggestedBindingRedirects.cache
+C:\dotnet\incremental\incremental\obj\Debug\incremental.csproj.CoreCompileInputs.cache
+C:\dotnet\incremental\incremental\obj\Debug\incremental.exe
+C:\dotnet\incremental\incremental\obj\Debug\incremental.pdb
