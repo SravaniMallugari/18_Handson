@@ -4,49 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace qstn12
+namespace qstn2
 {
     internal class Program
     {
-    
-             static double MeterToKilometer(double meter)
-            {
-                double KM = 0;
-
-                KM = meter / 1000;
-
-                return KM;
-            }
-
-             static double KilometerToMeter(double km)
-            {
-                double METER = 0;
-
-                METER = km * 1000;
-
-                return METER;
-            }
-
-            static void Main()
-            {
-                double meter = 0;
-                double km = 0;
-
-                Console.Write("Enter the value of meter : ");
-                meter = double.Parse(Console.ReadLine());
-
-                km = MeterToKilometer(meter);
-                Console.WriteLine("Kilometer : " + km + "km");
-
-                Console.Write("Enter the value of kilometer : ");
-                km = double.Parse(Console.ReadLine());
-
-                meter = KilometerToMeter(km);
-                Console.WriteLine("Meter : " + meter + "m");
-
-            }
+        static void Main(string[] args)
+        {
+            int num1, num2, num3;
+            Console.WriteLine(Convert.ToInt32("input enter first num1" + num1));
+            Console.WriteLine(Convert.ToInt32("input enter first num2" + num2));
+            Console.WriteLine(Convert.ToInt32("input enter first num3" + num3));
+            Console.WriteLine(Convert.ToInt32("output{0} * {1} *{2} "  num1 * num2 * num3));
+            Console.ReadLine();
         }
-
     }
-
-
+}
